@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+:root {
+  --primaryColor: rgb(17, 86, 102);
+  --primaryColorDarker: rgb(13, 51, 59);
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primaryColor);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: "Opnen sans", sans-serif;
+  font-size: 1.1em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 2px;
+}
+p {
+  font-size: 3em;
+}
+button {
+  margin: 4px;
+}
+.pausado {
+  color: red
+}
